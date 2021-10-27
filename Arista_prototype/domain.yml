@@ -1,0 +1,87 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- fine
+- name
+- greet
+- covid_19
+- goodbye
+- hospital_booking
+- diease_symptoms
+slots:
+  age:
+    type: text
+  any_other_symptoms:
+    type: text
+  full_details:
+    type: text
+  hospital_name:
+    type: text
+  name:
+    type: text
+  name1:
+    type: text
+  place:
+    type: text
+  place1:
+    type: text
+  symptoms:
+    type: text
+responses:
+  utter_greet:
+  - text: Hey! How can i help u today?
+  utter_goodbye:
+  - text: Bye
+  utter_ask_place:
+  - text: Enter the place that you find covid 19 details
+  utter_ask_full_details:
+  - text: Do you want to display the full details
+  utter_ask_name:
+  - text: Enter your name
+  utter_ask_age:
+  - text: Enter your age
+  utter_ask_hospital_name:
+  - text: Enter the hospital that you want to get booked
+  utter_ask_place1:
+  - text: Enter your place
+  utter_ask_name1:
+  - text: Enter your name
+  utter_ask_symptoms:
+  - text: 'Let me know the symptoms you are  facing Note:Please type the symtom seperated by comma '
+  utter_ask_any_other_symptoms:
+  - text: Is there any other symptoms if you are have any please write those seperated by comma?
+  utter_help:
+  - text: How can i help you today?
+  utter_name:
+  - text: My name is Arista, a medical chatbot capable of predicting the symptoms, prevention of various diseases without spending a single penny.
+actions:
+- action_hospital
+- action_place
+- action_symptoms
+- utter_greet
+- utter_help
+- utter_name
+forms:
+  place_form:
+    place:
+    - type: from_text
+    full_details:
+    - type: from_text
+  hospital_booking_form:
+    name:
+    - type: from_text
+    age:
+    - type: from_text
+    hospital_name:
+    - type: from_text
+    place1:
+    - type: from_text
+  disease_symptoms_form:
+    name1:
+    - type: from_text
+    symptoms:
+    - type: from_text
+    any_other_symptoms:
+    - type: from_text
+version: '2.0'
