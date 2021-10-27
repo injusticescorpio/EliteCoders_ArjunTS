@@ -1,1 +1,1 @@
-# Medical Chatbot Backend using Django.
+# Medical Chatbot Backend created using Django.
