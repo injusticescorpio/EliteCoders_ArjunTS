@@ -1,1 +1,1 @@
-## Medical Chatbot Implemented using Rasa
+## Medical Chatbot (Arista) Implemented using Rasa
