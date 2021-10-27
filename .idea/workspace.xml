@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9ffe269-86f4-4acc-bfbb-a30d49e7c237" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Arista/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Arista/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista/css/style3.css" beforeDir="false" afterPath="$PROJECT_DIR$/Arista/css/style3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Arista/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista_prototype/actions/disease_symptoms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arista_prototype/actions/disease_symptoms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista_prototype/actions/hospital_booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arista_prototype/actions/hospital_booking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista_prototype/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Arista_prototype/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista_prototype/models/20210126-155330.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista_prototype/models/20210127-114112.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arista_prototype/models/20210127-130951.tar.gz" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Arista_prototype" />
+  </component>
+  <component name="ProjectId" id="1zzOYKX5QYMWoMzfFI9YV0EEKua" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9ffe269-86f4-4acc-bfbb-a30d49e7c237" name="Default Changelist" comment="" />
+      <created>1635147496344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635147496344</updated>
+    </task>
+    <servers />
+  </component>
+</project>
