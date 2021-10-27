@@ -1,0 +1,78 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hy
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: hospital_booking
+  examples: |
+    - i like to book a hospital
+    - hospital booking
+    - i like to book
+    - can you  please book a hospital for me
+    - i want to book a hospital
+    - immediately book a hospital for me
+    - Hello arista  need to book a hospital
+    - i just need to book a hospital
+- intent: covid_19
+  examples: |
+    - what is the covid 19 details
+    - covid 19 of a place
+    - covid in kerala
+    - covid in india
+    - i just need to know the covid 19 details of a place
+    - tell me about the covid 19 details
+    - hey arista tell me about covid 19 details
+- intent: diease_symptoms
+  examples: |
+    - iam having fever
+    - i like to predict a disease from symptoms
+    - symtoms of a particular disease
+    - hey arista iam having fever please help me
+    - arista iam having fever
+    - i like to know more about my disease
+    - fever
+- intent: fine
+  examples: |
+    - iam fine
+    - fine
+    - 5n
+    - going great
+    - going fine
+    - booring
+    - iam good thank you for asking
+    - haaa iam fine
+- intent: name
+  examples: |
+    - what is your name?
+    - ur name please
+    - your gud name please
+    - hey ur name yetha
+    - ninte peru yetha
+    - tell me your name
+    - what is your name

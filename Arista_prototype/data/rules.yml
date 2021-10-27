@@ -1,0 +1,80 @@
+version: "2.0"
+
+rules:
+
+- rule: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+#Name asking
+- rule: ask_name
+  steps:
+  - intent: name
+  - action: utter_name
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+#Hospital Booking.............
+- rule: hospital_booking_active
+  steps:
+  - intent: hospital_booking
+  - action: hospital_booking_form
+  - active_loop: hospital_booking_form
+- rule: hospital_booking_submit
+  condition:
+# Condition that form is active.
+  - active_loop: hospital_booking_form
+  steps:
+# Form is deactivated
+  - action: hospital_booking_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_hospital
+  - action: action_restart
+
+#Covid 19 Tracker........
+- rule: covid_19
+  steps:
+  - intent: covid_19
+  - action: place_form
+  - active_loop: place_form
+- rule: place_submit
+  condition:
+# Condition that form is active.
+  - active_loop: place_form
+  steps:
+# Form is deactivated
+  - action: place_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_place
+  - action: action_restart
+
+
+
+#Disease symptoms..........
+
+- rule: diease_symptoms_active
+  steps:
+  - intent: diease_symptoms
+  - action: disease_symptoms_form
+  - active_loop: disease_symptoms_form
+- rule: diease_symptoms_submit
+  condition:
+# Condition that form is active.
+  - active_loop: disease_symptoms_form
+  steps:
+# Form is deactivated
+  - action: disease_symptoms_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+# The actions we want to run when the form is submitted.
+  - action: action_symptoms
+  - action: action_restart
