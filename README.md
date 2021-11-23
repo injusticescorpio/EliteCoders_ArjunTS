@@ -1,2 +1,2 @@
 # Medical-Website
-A Medical Website created as part of Smart City Hackathon Organized  by Amrita Vishwa Vidyapeetham and Honeywell Technology Solutions Lab Pvt. Ltd
+A Medical Website which is capable of predicting the symptoms,precaution of various diseases.
