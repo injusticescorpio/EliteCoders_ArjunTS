@@ -5,7 +5,7 @@ Here is a video based on the working demonstration of the project.
 <br>
 <br>
 
-[![Alternate Text]({https://thetius.com/wp-content/uploads/2019/11/chatbot-4071274_1920.jpg})]({video-url} "Link Title")
+[![Alternate Text]({https://github.com/injusticescorpio/EliteCoders_ArjunTS/blob/master/bot.jpg})]({video-url} "Link Title")
 
 
 
