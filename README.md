@@ -3,9 +3,6 @@ A Medical Website Integrated with a Rasa Chatbot which is capable of predicting 
 
 Here is a video based on the working demonstration of the project.
 <br>
-<br>
 
-[![Alternate Text]({https://github.com/injusticescorpio/EliteCoders_ArjunTS/blob/master/bot.jpg})]({video-url} "Link Title")
-
-
+https://user-images.githubusercontent.com/63117348/143433363-0d882f9c-ccd5-449d-86ce-f8d9abe6ad27.mp4
 
